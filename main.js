@@ -31,8 +31,8 @@ view.addEventListener( "click", ()=> {
     
     if( modal.classList.contains("closed-modal")) { 
         modal.style.display = "grid";
-        modal.style.width = "100%"
         modal.style.height = "100%"
+        modal.style.width = "100%"
         
         modal.classList.remove("closed-modal")
         modal.classList.add("open-modal")
@@ -41,8 +41,8 @@ view.addEventListener( "click", ()=> {
 
 closePreview.addEventListener( "click", ()=> { 
     if( modal.classList.contains("open-modal")) { 
-        modal.style.width = "0%"
         modal.style.height = "0%"
+        modal.style.width = "0%"
         
         modal.classList.remove("open-modal")
         modal.classList.add("close-modal")

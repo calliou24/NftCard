@@ -18,6 +18,10 @@ $font:'Outfit', sans-serif;
     box-sizing: border-box;
 }
 
+*{
+    user-select: none;
+}
+
 body {
     @include norm();
     background-color: $neutral-color;
@@ -26,7 +30,6 @@ body {
     min-height: 100vh;
     width: 100vw;
     position: relative;
-    user-select: none;
         .cont { 
             scale: 1;
             position: relative;
